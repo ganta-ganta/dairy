@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alokam Dairy</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Your CSS file -->
+  <style>
+    /* Popup Styling */
+    .popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 15, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.popup-overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+.popup-content {
+  position: relative;
+  background: url('img/log.png') no-repeat center center / cover;
+  border-radius: 10px;
+  padding: 30px; /* Adjusted padding for better content spacing */
+  max-width: 400px; /* Increased width for better text layout */
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(30, 181, 50, 0.6); /* Slightly darker shadow */
+  color: #fff; /* Changed text color for better contrast */
+}
+.popup-content h2 {
+  margin: 0 0 15px; /* Added bottom margin for spacing */
+  font-size: 28px; /* Larger font for better emphasis */
+  color: #f7e247; /* Eye-catching yellow for title */
+}
+.popup-content p {
+  font-size: 18px; /* Increased font size for readability */
+  color: #bcbf19; /* Softer white color */
+  margin: 10px 0 20px; /* Added spacing below text */
+}
+.popup-content button {
+  background: #9eda1be8;
+  color: white;
+  padding: 12px 24px; /* Slightly larger button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.popup-content button:hover {
+  background: #45a049;
+}
+.close-btn {
+  position: absolute;
+  top: -50px; /* Adjusted position for better alignment */
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 22px; /* Larger font for close button */
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.close-btn:hover {
+  color: #ff0000;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Popup -->
+  <div class="popup-overlay" id="welcomePopup">
+    <div class="popup-content">
+      <button class="close-btn" onclick="closePopup()">×</button> <!-- Close Button -->
+      <h2>Welcome to Alokam Dairy!</h2>
+      <p>Discover our fresh and healthy dairy products.</p>
+      <button onclick="exploreProducts()">Explore Now</button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <header>
+    <h1>Alokam Dairy</h1>
+  </header>
+  <script>
+   // Show the popup only once per user
+window.onload = function () {
+  // Check if the popup has already been shown
+  if (!localStorage.getItem("popupShown")) {
+    document.getElementById("welcomePopup").classList.add("active");
+    // Set a flag in localStorage
+    localStorage.setItem("popupShown", "true");
+  }
+};
+
+// Redirect to products.html
+function exploreProducts() {
+  window.location.href = "products.html";
+}
+
+// Close the popup
+function closePopup() {
+  document.getElementById("welcomePopup").classList.remove("active");
+}
+
+  </script>
+</body>
+</html>

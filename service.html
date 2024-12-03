@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>alokam dairy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alokam Dairy offers fresh organic milk, ice creams, juices, vegetable juices, and all dairy products in Guntur, Andhra Pradesh. Quality you can trust.">
+    <meta name="keywords" content="Alokam Dairy, dairy products Guntur, organic milk Andhra Pradesh, fresh milk delivery Guntur, ice cream in Guntur, vegetable juice Guntur, fresh paneer Guntur, organic butter Andhra Pradesh, dairy store Guntur, low-fat milk Andhra Pradesh, natural dairy products, local dairy store, best dairy products Andhra Pradesh, Alokam organic milk, Guntur milk suppliers, fresh juices Guntur, dairy parlour Andhra Pradesh, pure milk Guntur, homemade ice cream Guntur">
+    <meta name="author" content="Alokam Dairy">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="sitmap.xml" rel="icon">
+    
+        <!-- Favicons -->
+        <link rel="icon" href="/logo.png" sizes="16x16 32x32" type="image/x-icon">
+        <link rel="icon" href="/logo.png" type="image/png">
+    
+        <!-- Apple Touch Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/logo.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/logo.png">
+    
+        <!-- Android Manifest -->
+        <link rel="manifest" href="/manifest.json">
+        <meta name="theme-color" content="#ffffff">
+    
+        <!-- Windows Tiles -->
+        <meta name="msapplication-TileColor" content="#2d89ef">
+        <meta name="msapplication-TileImage" content="/logo.png">
+    
+        <!-- Safari Pinned Tab -->
+        <link rel="mask-icon" href="/logo.png" color="#5bbad5">
+    
+        <!-- Social Media Preview -->
+        <meta property="og:image" content="/logo.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+    
+    
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+       <!-- Preloader -->
+    <div id="preloader">
+      <img src="img/2.gif" alt="Loading..." />
+      <p>Loading, please wait...</p>
+    </div>
+
+
+   
+       <!-- Popup -->
+  <div class="popup-overlay" id="welcomePopup">
+    <div class="popup-content">
+      <button class="close-btn" onclick="closePopup()">×</button> <!-- Close Button -->
+      <h2>Welcome to Alokam Dairy!</h2>
+      <p>Discover our fresh and healthy dairy products.</p>
+      <button onclick="exploreProducts()">Explore Now</button>
+    </div>
+  </div>
+
+
+       <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+    <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <!-- Logo -->
+        <img src="img/logo.png" alt="A-Dairy Logo" style="height: 50px; width: auto;" class="me-2">
+        <h1 class="m-0">Alokam-Dairy</h1>
+    </a>
+    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">
+                <i class="bi bi-house-door me-2"></i>Home
+            </a>
+            <a href="about.html" class="nav-item nav-link">
+                <i class="bi bi-info-circle me-2"></i>About
+            </a>
+            <a href="service.html" class="nav-item nav-link active">
+                <i class="bi bi-gear me-2"></i>Services
+            </a>
+            <a href="product.html" class="nav-item nav-link ">
+                <i class="bi bi-basket me-2"></i>Products
+            </a>
+            <a href="cart.html" class="nav-item nav-link">
+                <i class="bi bi-cart4 me-2"></i>Cart
+            </a>
+            <a href="contact.html" class="nav-item nav-link">
+                <i class="bi bi-envelope me-2"></i>Contact
+            </a>
+            <a href="orders.html" class="nav-item nav-link">
+                <i class="bi bi-clock-history me-2"></i>Orders
+            </a>
+            <a href="dairy-menu.html" class="nav-item nav-link active">
+                <i class="bi bi-ice-cream me-2"></i>Dairy Menu
+            </a>
+            
+            
+            
+            
+            
+        </div>
+        <div class="border-start ps-4 d-none d-lg-block">
+            <button type="button" class="btn btn-sm p-0">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+
+    <!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="section-title bg-white text-center text-primary px-3">Our Services</p>
+            <h1 class="mb-5">What We Offer</h1>
+        </div>
+        <div class="row gy-5 gx-4">
+            <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/service-1.jpg" alt="">
+                        </div>
+                        <h5 class="mb-3">High-Quality Milk</h5>
+                        <p class="mb-4">Our milk is sourced from healthy cows, processed with utmost care to ensure purity and freshness.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/service-2.jpg" alt="">
+                        </div>
+                        <h5 class="mb-3">Fresh Juices</h5>
+                        <p class="mb-4">Indulge in our natural, refreshing juices that complement our dairy offerings perfectly.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/service-3.jpg" alt="">
+                        </div>
+                        <h5 class="mb-3">Delicious Ice Creams</h5>
+                        <p class="mb-4">Enjoy our variety of creamy, flavorful ice creams made with pure dairy ingredients.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="section-title bg-white text-center text-primary px-3">Our MENU</p>
+            <h1 class="mb-5">What We Offer</h1>
+        </div>
+        <div class="row gy-5 gx-4">
+            <!-- Dairy Fresh Category -->
+            <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                <h3 class="text-primary mb-4">Dairy Fresh</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/fresh-buffalo-milk.jpg" alt="Fresh Buffalo Milk">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-buffalo-milk.jpg" alt="Fresh Buffalo Milk Icon">
+                        </div>
+                        <h5 class="mb-3">Fresh Buffalo Milk</h5>
+                        <p class="mb-4">Rich, creamy, and wholesome milk, perfect for daily nutrition.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/country-cow-milk.jpg" alt="Country Cow Milk">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-cow-milk.jpg" alt="Country Cow Milk Icon">
+                        </div>
+                        <h5 class="mb-3">Country Cow Milk</h5>
+                        <p class="mb-4">Pure and naturally healthy milk, full of essential nutrients.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/ghee.jpg" alt="Ghee">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-ghee.jpg" alt="Ghee Icon">
+                        </div>
+                        <h5 class="mb-3">Ghee</h5>
+                        <p class="mb-4">Authentic aroma and golden goodness, perfect for cooking and rituals.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sweet Indulgence Category -->
+            <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                <h3 class="text-primary mb-4">Sweet Indulgence</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/junnu-paalu.jpg" alt="Junnu Paalu">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-junnu.jpg" alt="Junnu Paalu Icon">
+                        </div>
+                        <h5 class="mb-3">Junnu Paalu</h5>
+                        <p class="mb-4">A rare delicacy with a traditional touch, made from colostrum milk.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/ice-creams.jpg" alt="Ice Creams">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-ice-cream.jpg" alt="Ice Cream Icon">
+                        </div>
+                        <h5 class="mb-3">Ice Creams</h5>
+                        <p class="mb-4">Classic and premium flavors like Vanilla, Chocolate, and Mango.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Refreshing Sips Category -->
+            <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                <h3 class="text-primary mb-4">Refreshing Sips</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/milkshakes.jpg" alt="Milkshakes">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-milkshake.jpg" alt="Milkshake Icon">
+                        </div>
+                        <h5 class="mb-3">Milkshakes</h5>
+                        <p class="mb-4">Blended to perfection with flavors like Chocolate, Strawberry, and Mango.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/thick-shakes.jpg" alt="Thick Shakes">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-thickshake.jpg" alt="Thick Shake Icon">
+                        </div>
+                        <h5 class="mb-3">Thick Shakes</h5>
+                        <p class="mb-4">Richer, indulgent twists with Oreo, Brownie, and Berries flavors.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item d-flex h-100">
+                    <div class="service-img">
+                        <img class="img-fluid" src="img/fruit-juices.jpg" alt="Fruit Juices">
+                    </div>
+                    <div class="service-text p-5 pt-0">
+                        <div class="service-icon">
+                            <img class="img-fluid rounded-circle" src="img/icon-juice.jpg" alt="Fruit Juice Icon">
+                        </div>
+                        <h5 class="mb-3">Fruit Juices</h5>
+                        <p class="mb-4">Seasonal and exotic, freshly squeezed for all-natural goodness.</p>
+                        <a class="btn btn-square rounded-circle" href="product.html"><i class="bi bi-chevron-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <!-- Features Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <p class="section-title bg-white text-start text-primary pe-3">Why Choose Us?</p>
+                <h1 class="mb-4">Why Alokam Farm Dairy Stands Out</h1>
+                <p class="mb-4">At Alokam Farm Dairy, we are dedicated to delivering the best dairy products. Our focus is on providing high-quality milk, buttermilk, ghee, milkshakes, ice creams, and juices. Located in Amaravati, Andhra Pradesh, we are committed to serving fresh and organic products daily.</p>
+                <p><i class="fa fa-check text-primary me-3"></i>Fresh and Organic Dairy Products</p>
+                <p><i class="fa fa-check text-primary me-3"></i>Experienced and Reliable Team</p>
+                <p><i class="fa fa-check text-primary me-3"></i>Serving Happy Clients Across Andhra Pradesh</p>
+                <a class="btn btn-secondary rounded-pill py-3 px-5 mt-3" href="product.html">Explore More</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="rounded overflow-hidden">
+                    <div class="row g-0">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="text-center bg-primary py-5 px-4">
+                                <img class="img-fluid mb-4" src="img/experience.png" alt="">
+                                <h1 class="display-6 text-white" data-toggle="counter-up">25</h1>
+                                <span class="fs-5 fw-semi-bold text-secondary">Years of Experience</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="text-center bg-secondary py-5 px-4">
+                                <img class="img-fluid mb-4" src="img/award.png" alt="">
+                                <h1 class="display-6" data-toggle="counter-up">50</h1>
+                                <span class="fs-5 fw-semi-bold text-primary">cows</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="text-center bg-secondary py-5 px-4">
+                                <img class="img-fluid mb-4" src="img/animal.png" alt="">
+                                <h1 class="display-6" data-toggle="counter-up">151</h1>
+                                <span class="fs-5 fw-semi-bold text-primary">Healthy Buffalo's</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="text-center bg-primary py-5 px-4">
+                                <img class="img-fluid mb-4" src="img/client.png" alt="">
+                                <h1 class="display-6 text-white" data-toggle="counter-up">510</h1>
+                                <span class="fs-5 fw-semi-bold text-secondary">Happy Customers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Our Office</h5>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        <a href="https://maps.app.goo.gl/ntLDB75hANzMQAt5A" target="_blank" rel="noopener noreferrer">
+                            11-649/3, Nagar 7th Line,, Guntur.
+                        </a>
+                    </p>
+                    
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        <a href="tel:9381328220">93813 28220</a>, 
+                        <a href="tel:7981192713">79811 92713</a>
+                    </p>
+                    
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:alokamfarm@gmail.com"></a>alokamfarm@gmail.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="tm-cn.html">Terms & Condition</a>
+                    <a class="btn btn-link" href="contact.html">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Opening Hours</h5>
+                    <p class="mb-1">Monday - Friday</p>
+                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <p class="mb-1">Saturday</p>
+                    <h6 class="text-light">09:00 am - 9:00 pm</h6>
+                    <p class="mb-1">Sunday</p>
+                    <h6 class="text-light">Closed</h6>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-secondary text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-semi-bold" href="#">Alokam Dairy</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Dev By <a class="fw-semi-bold" href="https://gantasolutions.com/welcome">GANTA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/easing.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/counterup.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+    
+    
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/products.js"></script>
+        <script src="js/orders.js"></script>
+        <script src="js/cart.js"></script>
+</body>
+    
+</html>

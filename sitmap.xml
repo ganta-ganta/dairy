@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://alokamdairy.com/</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Product Pages -->
+  <url>
+    <loc>https://alokamdairy.com/buffalo-milk</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alokamdairy.com/cow-milk</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alokamdairy.com/ghee</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alokamdairy.com/milkshake</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alokamdairy.com/ice-cream</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alokamdairy.com/vegetable-juice</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Pages (if applicable) -->
+  <url>
+    <loc>https://alokamdairy.com/blog/benefits-of-buffalo-milk</loc>
+    <lastmod>2024-11-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://alokamdairy.com/blog/why-choose-ghee</loc>
+    <lastmod>2024-11-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact Us Page -->
+  <url>
+    <loc>https://alokamdairy.com/contact</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- About Us Page -->
+  <url>
+    <loc>https://alokamdairy.com/about</loc>
+    <lastmod>2024-11-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>
